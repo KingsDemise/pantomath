@@ -8,7 +8,7 @@ export default function RootLayout({ children }) {
         <head /> will contain the components returned by the nearest parent
         head.js. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
-      <body className="relative min-h-screen">
+      <body className="relative min-h-screen bg-gradient-to-tr from-red-200 to-yellow-100">
         {children}
         {/* Footer */}
 
