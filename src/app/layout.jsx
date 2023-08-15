@@ -1,4 +1,3 @@
-// import Footer from "@/components/Footer";
 import "./globals.css";
 
 export default function RootLayout({ children }) {
@@ -10,9 +9,6 @@ export default function RootLayout({ children }) {
       */}
       <body className="relative min-h-screen bg-gradient-to-tr from-red-200 to-yellow-100">
         {children}
-        {/* Footer */}
-
-        {/* <Footer /> */}
       </body>
     </html>
   );

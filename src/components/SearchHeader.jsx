@@ -4,7 +4,7 @@ import SearchHeaderOptions from "./SearchHeaderOptions";
 
 export default function SearchHeader() {
   return (
-    <header className="sticky top-0">
+    <header className="sticky top-0 bg-gradient-to-t from-yellow-100 to-red-200">
       <div className="flex w-full p-6 items-center justify-between">
         <Link href={"/"}>
           <div className=" bg-gradient-to-r from-black to-cyan-600 bg-clip-text text-transparent max-sm:hidden text-3xl font-satoshi font-bold italic tracking-wide hover:brightness-105 hover:shadow-md">
