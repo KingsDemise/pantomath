@@ -29,7 +29,7 @@ export default function SearchBox() {
       />
       {term != "" ? (
         <RxCross2
-          className="text-2xl text-gray-500 cursor-pointer sm:mr-2"
+          className="hover:brightness-105 hover:shadow-md text-2xl text-gray-500 cursor-pointer sm:mr-2"
           onClick={() => setTerm("")}
         />
       ) : (
@@ -37,7 +37,7 @@ export default function SearchBox() {
       )}
 
       <AiOutlineSearch
-        className="text-2xl hidden sm:inline-flex text-blue-500 cursor-pointer"
+        className="hover:brightness-105 hover:shadow-md text-2xl hidden sm:inline-flex text-blue-500 cursor-pointer"
         onClick={handleSubmit}
       />
     </form>
