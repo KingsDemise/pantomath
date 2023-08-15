@@ -9,7 +9,7 @@ const Home = () => {
   const [trendingNews, setTrendingNews] = useState([]);
   useEffect(() => {
     // Replace 'YOUR_API_KEY' with your actual Google News API key
-    const apiUrl = `https://newsapi.org/v2/top-headlines?country=in&apiKey=af28019f44854411abab100392007ebc`;
+    const apiUrl = `https://newsapi.org/v2/top-headlines?country=in&apiKey=${process.env.NEWS_API_KEY}`;
 
     axios
       .get(apiUrl)
