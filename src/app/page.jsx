@@ -5,7 +5,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import Link from "next/link";
 
-const page = () => {
+const Home = () => {
   const [trendingNews, setTrendingNews] = useState([]);
   useEffect(() => {
     // Replace 'YOUR_API_KEY' with your actual Google News API key
@@ -67,4 +67,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Home;
