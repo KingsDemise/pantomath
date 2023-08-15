@@ -14,4 +14,10 @@
   .header-icon {
     @apply bg-transparent hover:bg-gray-200 p-2 text-4xl rounded-full cursor-pointer;
   }
+  .head_text {
+    @apply mt-5 text-5xl font-extrabold leading-[1.15] sm:text-6xl;
+  }
+  .peach_gradient {
+    @apply bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-700 to-green-300 bg-clip-text text-transparent;
+  }
 }
