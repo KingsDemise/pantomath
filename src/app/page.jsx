@@ -8,8 +8,8 @@ import Link from "next/link";
 const Home = () => {
   const [trendingNews, setTrendingNews] = useState([]);
   useEffect(() => {
-    // Replace 'YOUR_API_KEY' with your actual Google News API key
-    const apiUrl = `https://newsapi.org/v2/top-headlines?country=in&apiKey=${process.env.NEWS_API_KEY}`;
+    const apiKey = process.env.NEWS_KEY;
+    const apiUrl = `https://newsapi.org/v2/top-headlines?country=in&apiKey=${process.env.NEXT_PUBLIC_NEWS_KEY}`;
 
     axios
       .get(apiUrl)
